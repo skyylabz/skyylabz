@@ -1,0 +1,50 @@
+.warning{
+    color: rgba(129, 19, 0, 0.966);
+    font-size: 13pt;
+}
+
+.brand-logo{
+    /* color: #26a69a!important; */
+    animation: color-change 1s infinite;
+  }
+  @keyframes color-change {
+    0% { color: rgba(253,187,45,1); }
+    25% { color: white; }
+    50% { color: #26a69a; }
+    100% { color: rgba(253,187,45,1); }
+  }
+
+  .card-title,.emailTo,.call{
+      font-size: 30pt!important;
+      color: #263238;
+      font-weight: bold !important;
+  }
+
+  .instructions{
+      color: black;
+      font-size: 15pt;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .card-title,.emailTo,.call{
+      font-size: 22pt!important;
+      color: #263238;
+      font-weight: bold !important;
+  }
+  .warning{
+    font-size: 12pt;
+}
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card-title,.emailTo,.call{
+        font-size: 22pt!important;
+        color: #263238;
+        font-weight: bold !important;
+    }
+    .warning{
+        font-size: 12pt;
+    }
+  }
+
